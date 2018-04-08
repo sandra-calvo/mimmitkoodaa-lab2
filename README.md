@@ -164,19 +164,19 @@ This will open the node menu where you can add new nodes to your application.
  
 You will see the nodes that are installed by default and if you go to the 'install' tab you can search for any node package and add it directly to your app.
                   
- ![](/screenshots/Picture21d.png?raw=true)
+  <img src="/screenshots/Picture21d.png" width="70%" height="70%">
  
 Search for the dashboard nodes by writing 'dashboard'. This will return multiple node packages, you need to install the package 'node-red-dashboard'. Find it in the search results and click on install. 
 
 This will prompt a window to confirm the installation. Click on install and wait few minutes, the application may require a restart. Click "Done" to close the left side menu. 
 
- ![](/screenshots/Picture21e.png?raw=true)
+ <img src="/screenshots/Picture21e.png" width="70%" height="70%">
 
 After few minutes you will see the new nodes in your Node-RED palette. 
+ 
+  <img src="/screenshots/Picture21f.png" width="30%" height="30%">
 
- ![](/screenshots/Picture21f.png?raw=true)
-
-Same way you imported the code in the previous steps, copy the following text and import it in Node-RED. In this case use **mimmitkoodaa_UI.txt**
+Same way you imported the code in the previous steps, copy the following text and import it in Node-RED. In this case use **mimmitkoodaa_UI_flow.txt**
 
 We added the UI flow:
 
@@ -204,6 +204,7 @@ Play with the visual recognition classifier using the UI.
 Enter the image URL and choose default classifier or custom and check the results!
 
  ![](/screenshots/Picture31.png?raw=true)
+
  
 
 
