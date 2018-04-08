@@ -130,7 +130,7 @@ Now your flow should look like this:
 ![](/screenshots/Picture21c.png?raw=true)
 
 You will need to do some editing on few nodes, because credentials are not transferred with the rest of the code. 
-Edit the purple Visual Recognition nodes with your own credentials (API Key). 
+- Edit the purple Visual Recognition nodes with your own credentials (API Key). 
 
 Feel free to find you own images and add them to the different inject nodes to classify images.
  
