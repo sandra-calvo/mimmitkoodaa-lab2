@@ -41,6 +41,7 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 6.	Your application is now staging and will be up and running/awake in a short while. Press 'OVERVIEW' to see information about your application. 
 
 7.	When fully staged, click on the View app link, next to the green circle, this launches the Node-RED main page in a new tab.
+If your are using the free account your application will not say running, instead it will be **"awake"**. That means that if in 10 days the app has no traffic or changes IBM will stop it. You can always start it again from the dashboard. 
 
  ![](/screenshots/Picture13.png?raw=true)
  
