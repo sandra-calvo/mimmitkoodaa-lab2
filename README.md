@@ -9,12 +9,14 @@
  
 ## Introduction 
 In this guide, we will create a web application that uses our custom Watson Visual Recognition classifier. 
-Check Lab 1 to created your custom classifier. (https://github.com/sandra-calvo/mimmitkoodaa-lab1)
+
+*Check Lab 1 to create your custom classifier and visual recognition service. (https://github.com/sandra-calvo/mimmitkoodaa-lab1)*
 
 #### Prerequisites
-- Register on IBM Cloud at https://bluemix.net
+- Register for free on IBM Cloud at https://bluemix.net
 
-## Step 1. Create Your Node-RED Application
+
+## Step 1. Create Your Node-RED Application on IBM Cloud
 
 #### About Node-RED
 Node-RED is a visual tool for wiring the internet of things - connecting hardware devices, APIs and online services in a new and interesting way. Node-RED provides a browser-based flow editor that makes it easy to wire together flows using the wide range nodes in the palette. Flows can be then deployed to the runtime in a single-click.
@@ -23,30 +25,30 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 - See https://nodered.org for more information. 
 
 
-If you already have a Node-RED application and a Visual Recognition service in use in Bluemix, you can use those - In that case jump to Step 2.
+**NOTE:** If you already have a Node-RED application and a Visual Recognition service in use in Bluemix, you can use those - In that case jump to Step 2.
 
-4.	In a browser navigate to https://bluemix.net
-5.	Select 'LOG IN' then enter your log in information and press 'SIGN IN'.  
-6.	Select the 'CATALOG' view.
-7.	Locate the NODE-RED Starter in the boilerplate section of the catalog and click on it.  
+1.	In a browser navigate to https://bluemix.net
+2.	Select 'LOG IN' then enter your log in information and press 'SIGN IN'.  
+3.	Select the 'CATALOG' view.
+4.	Locate the NODE-RED Starter in the boilerplate section of the catalog and click on it.  
  
  ![](/screenshots/Picture11.png?raw=true)
 
-8.	Enter a name for your application, as shown below (host will automatically be completed).  The host name must be unique on IBM Cloud, so please choose a name for example using your initials. Press 'CREATE'. 
+5.	Enter a name for your application, as shown below (host will automatically be completed).  The host name must be unique on IBM Cloud, so please choose a name for example using your initials. Press 'CREATE'. 
 
  ![](/screenshots/Picture12.png?raw=true)
  
-9.	Your application is now staging and will be up and running/awake in a short while. Press 'OVERVIEW' to see information about your application. 
+6.	Your application is now staging and will be up and running/awake in a short while. Press 'OVERVIEW' to see information about your application. 
 
-10.	When fully staged, click on the View app link, next to the green circle, this launches the Node-RED main page in a new tab.
+7.	When fully staged, click on the View app link, next to the green circle, this launches the Node-RED main page in a new tab.
 
  ![](/screenshots/Picture13.png?raw=true)
  
-11.	Configure your Node-RED editor. In this section, you will set up a username and password to protect your flow. 
+8.	Configure your Node-RED editor. In this section, you will set up a username and password to protect your flow. 
 
  ![](/screenshots/Picture14.png?raw=true)
 
-12.	Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud access. 
+9.	Write an username and a password of your choice and click 'Next'. Remember that it does not have to be related to your IBM Cloud access. 
 
  ![](/screenshots/Picture15.png?raw=true)
  
@@ -64,7 +66,7 @@ Now click Go to your Node-RED flow editor to open the flow editor and enter your
   
   ![](/screenshots/Picture19.png?raw=true)
 
-13.	When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow. 
+10.	When using Node-RED we build our apps using this graphical editor interface to wire together the blocks we need. We can simply drag and drop the blocks from the left menu into the workspace in the center of the screen and connect them to create a new flow. 
 
 Note: If you get an "Authorization denied" message when deploying your applications make your sure you are logged in. Click on the icon on the top right side of the Node-RED canvas and login with the credentials you created in the previous steps. 
 
@@ -141,7 +143,7 @@ We should have the next flow:
 This flow takes a picture and runs it through the custom classifier created in Step 2. If it finds a match it will tell us what Watson sees in the picture, if it can't find a match it will print a message saying that. 
 
 Remember you will need to edit the flow: 
-- Add your credentials to the Visual Recognition node 
+- Add your credentials (API Key) to the Visual Recognition node 
 - Write your own classifier ID in the function "Define the classifier ID"
 
 Your classifier ID can be found in the Visual Recognition Tool: (Do not use the ID shown in the picture)
@@ -198,7 +200,6 @@ Enter the image URL and choose default classifier or custom and check the result
 
  ![](/screenshots/Picture31.png?raw=true)
  
- # Summary
- In this lab you created a custom classifier using Watson Visual Recognition API and exposed your custom classifier through a web app using Node-RED. 
+
 
 
