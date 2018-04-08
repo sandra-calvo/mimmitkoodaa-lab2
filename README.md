@@ -1,7 +1,18 @@
 # IBM Cloud :cloud: & Watson
+## Mimmitkoodaaa Workshop
 
-# Mimmitkoodaaa Worshop
 # Create a Node-RED app that uses Watson Visual Recognition
+
+<!--- GIF & images
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+--->
+ 
+## Introduction 
+In this guide, we will create a web application that uses our custom Watson Visual Recognition classifier. 
+Check Lab 1 to created your custom classifier. (https://github.com/sandra-calvo/mimmitkoodaa-lab1)
+
+#### Prerequisites
+- Register on IBM Cloud at https://bluemix.net
 
 ## Step 1. Create Your Node-RED Application
 
