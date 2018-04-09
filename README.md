@@ -31,6 +31,8 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 2.	Select 'LOG IN' then enter your log in information and press 'SIGN IN'.  
 3.	Select the 'CATALOG' view.
 4.	Locate the NODE-RED Starter in the boilerplate section of the catalog and click on it.  
+
+**NOTE: If Node-RED Starter is not part of the Lite plan use Internet of Things Starter, which contains the same services and the IoT platform service. **
  
  ![](/screenshots/Picture11.png?raw=true)
 
