@@ -31,8 +31,6 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 2.	Select 'LOG IN' then enter your log in information and press 'SIGN IN'.  
 3.	Select the 'CATALOG' view.
 4.	Locate the NODE-RED Starter in the boilerplate section of the catalog and click on it.  
-
-**NOTE: If Node-RED Starter is not part of the Lite plan use Internet of Things Starter, which contains the same services and the IoT platform service. **
  
  ![](/screenshots/Picture11.png?raw=true)
 
@@ -40,7 +38,9 @@ Node-RED is a visual tool for wiring the internet of things - connecting hardwar
 
  ![](/screenshots/Picture12.png?raw=true)
  
-6.	Your application is now staging and will be up and running/awake in a short while. Press 'OVERVIEW' to see information about your application. 
+6.	Your application is now staging and will be up and running/awake in a short while. Press **'OVERVIEW'** to see information about your application. 
+
+NOTE: You don't need to install the CLI. This lab is meant to be completed using the IBM Cloud UI. 
 
 7.	When fully staged, click on the View app link, next to the green circle, this launches the Node-RED main page in a new tab.
 If your are using the free account your application will not say running, instead it will be **"awake"**. That means that if in 10 days the app has no traffic or changes IBM will stop it. You can always start it again from the dashboard. 
